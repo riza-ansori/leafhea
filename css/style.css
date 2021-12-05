@@ -1,0 +1,165 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+section {
+    padding: 75px 0;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+img {
+    max-width: 100%;
+}
+
+/* header */
+header#main-header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+section.banner-section {
+    padding: 150px 0 70px;
+    background: linear-gradient(180deg, #B1E0B0 0%, #D9F1D8 100%);
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-weight: 600;
+}
+.title-banner {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.text-green {
+    color: #306D20;
+}
+.px-10-persen {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.wrapp-banner-img img {
+    width: 100%;
+    object-fit: contain;
+}
+.primary-btn {
+    background: #398228;
+    color: #fff;
+}
+.secondary-btn {
+    background: #7CBB6E;
+    color: #fff;
+}
+.banner-section .primary-btn {
+    margin-right: 16px;
+}
+
+/* section produk */
+.title-section {
+    font-size: 36px;
+    font-weight: 500;
+}
+.green-check {
+    position: relative;
+    margin-bottom: 16px;
+    font-size: 18px;
+    padding-left: 25px;
+}
+.green-check i {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    color: #306D20;
+}
+
+.bg-soft-green {
+    background: #F4F8F3;
+}
+.img-450 {
+    width: 450px;
+    max-width: 100%;
+}
+h3.sub-title-section {
+    font-size: 24px;
+}
+
+/* cara kerja */
+.wrap-image.text-center {
+    margin-bottom: 20px;
+}
+.blurb {
+    margin-bottom: 32px;
+}
+.title-blurb {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.content-blurb {
+    text-align: center;
+}
+.text-16 {
+    font-size: 16px !important;
+}
+.testimoni-slider .wrap-image img {
+    padding: 15px;
+}
+
+/* Promo */
+.blurb.blurb-promo {
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.price-blurb {
+    font-size: 36px;
+    color: #306D20;
+    margin-bottom: 24px;
+}
+
+
+div#to-top {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.2);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    z-index: 9999;
+    cursor: pointer;
+    color: #fff;
+    transition: .3s ease-in-out;
+    opacity: 0;
+}
+
+@media (max-width: 865px) {
+    .banner-section .btn {
+        width: 100%;
+    }
+    .banner-section .primary-btn {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+}
+@media (max-width: 575px) {
+    .row>* {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
