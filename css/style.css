@@ -198,6 +198,25 @@ ol.list-blurb li::before {
     align-items: center;
 }
 
+.price-card .price {
+    font-size: 36px;
+    font-weight: 600;
+}
+.price-card .numeric {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.list-price {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card.price-card .card-content {
+    border-bottom: 4px solid #398228;
+    padding: 30px;
+}
+
 div#to-top {
     display: flex;
     width: 40px;
