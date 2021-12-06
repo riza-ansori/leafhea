@@ -216,6 +216,9 @@ ol.list-blurb li::before {
     border-bottom: 4px solid #398228;
     padding: 30px;
 }
+.price-card .card-content .list-price {
+    min-height: 320px;
+}
 
 div#to-top {
     display: flex;
