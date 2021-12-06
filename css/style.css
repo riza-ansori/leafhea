@@ -85,6 +85,9 @@ section.banner-section {
 .bg-green {
     background: #398228;
 }
+.bg-lite-green {
+    background: #B1E0B0;
+}
 .bg-soft-green {
     background: #F4F8F3;
 }
@@ -130,6 +133,20 @@ h3.sub-title-section {
     margin-bottom: 24px;
 }
 
+.card {
+    border: none;
+    padding: 16px;
+}
+.card-content {
+    padding: 20px;
+    border: 1px dashed;
+}
+.card-content ul {
+    margin-bottom: 0;
+}
+.card-content ul li {
+    margin-bottom: 10px;
+}
 
 div#to-top {
     display: flex;
