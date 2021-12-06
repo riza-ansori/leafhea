@@ -35,6 +35,25 @@ section.banner-section {
     border-radius: 30px;
     padding: 8px 20px;
     font-weight: 600;
+    position: relative;
+    border: none;
+}
+.btn:before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background:rgba(255,255,255,.5);
+    top: 0;
+    left: 0;
+    border-radius: 30px;
+    transition: .3s ease-in-out;
+}
+.btn:hover:before{
+    width: 100%;
+}
+.btn:hover {
+    color: #fff !important;
 }
 .title-banner {
     font-size: 48px;
@@ -119,6 +138,14 @@ h3.sub-title-section {
 }
 .testimoni-slider .wrap-image img {
     padding: 15px;
+}
+#testimonial {
+    overflow: hidden;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+#testimonial .slick-dots {
+    bottom: 0;
 }
 
 /* Promo */
