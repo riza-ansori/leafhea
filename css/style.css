@@ -219,6 +219,28 @@ ol.list-blurb li::before {
 .price-card .card-content .list-price {
     min-height: 320px;
 }
+#contact {
+    background-image: url(../img/bg-rectangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/* footer */
+#footer {
+    padding: 75px 0;
+}
+#footer .logo {
+    display: block;
+    text-align: center;
+}
+#footer .logo img {
+    filter: brightness(100);
+}
+hr.line-white {
+    color: #fff;
+    opacity: .7;
+}
 
 div#to-top {
     display: flex;
