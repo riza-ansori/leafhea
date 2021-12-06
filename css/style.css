@@ -147,6 +147,56 @@ h3.sub-title-section {
 .card-content ul li {
     margin-bottom: 10px;
 }
+.card.custom-card {
+    overflow: hidden;
+}
+.card.custom-card .card-title {
+    margin-bottom: 0;
+}
+.card.custom-card .card-content {
+    border: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.w-750 {
+    max-width: 750px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* custom list number */
+ol.list-blurb {
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    padding-left: 50px;
+    margin-bottom: 0;
+}
+ol.list-blurb li {
+    margin: 0 0 0.5rem 0;
+    counter-increment: my-awesome-counter;
+    position: relative;
+}
+ol.list-blurb li::before {
+    content: counter(my-awesome-counter);
+    color: #306D20;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    --size: 40px;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 5px;
+    background: transparent;
+    border-radius: 100%;
+    text-align: center;
+    border: 2px solid #306D20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 div#to-top {
     display: flex;
